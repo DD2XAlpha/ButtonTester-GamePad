@@ -13,13 +13,13 @@ int Menu_Main(void) {
 		//Press Button A
 		if(isPressed(VPAD_BUTTON_A));
 		uprintf("\n");
-		uprintf("Haz presionado el boton A");
+		uprintf("A button pressed");
 		
 		
 		//Press Button B 
 		if(isPressed(VPAD_BUTTON_B));
 		uprintf("\n");
-        uprintf("Haz preisionado el boton B");
+        uprintf("B button Pressed");
 		
 		//Touch buttton ucls
 		if(isPressed(VPAD_BUTTON_TOUCH));
@@ -32,7 +32,7 @@ int Menu_Main(void) {
 	}
 	uprintf("\n");
 	
-	uprintf("Saliendo...");
+	uprintf("Exiting...");
 	return 0;
 }
 
